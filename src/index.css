@@ -182,6 +182,11 @@ a {
     grid-gap: 2.8125rem;
     margin-top: 4.3125rem;
   }
+  .blog-list h2,
+  .blog-details h2,
+  .create h2  {
+    margin-top: 0;
+  }
   .blog-details {
     margin-top: 4.3125rem;
   }
