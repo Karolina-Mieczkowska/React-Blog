@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "title": "Blog Title 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus dignissimos sequi esse ipsa ipsum ut, explicabo error adipisci hic dolor architecto laboriosam aliquid excepturi, a expedita reiciendis consequuntur deleniti.",
+      "id": 1
+    },
+    {
+      "title": "Blog Title 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus dignissimos sequi esse ipsa ipsum ut, explicabo error adipisci hic dolor architecto laboriosam aliquid excepturi, a expedita reiciendis consequuntur deleniti.",
+      "id": 2
+    }
+  ]
+}

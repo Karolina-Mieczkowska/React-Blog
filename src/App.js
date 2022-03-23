@@ -6,6 +6,9 @@ import {
 import Navbar from './Navbar';
 import Home from './Home';
 import Create from './Create';
+import BlogList from "./BlogList";
+import BlogDetails from "./BlogDetails";
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -14,10 +17,15 @@ function App() {
       
       <BrowserRouter>
         <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/create" element={<Create />}/>
-        </Routes>
+        <main className="main">
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/create" element={<Create />}/>
+            <Route path="/blogs" element={<BlogList />}/>
+            <Route path="/blogs/:id" element={<BlogDetails />}/>
+            <Route path="*" element={<NotFound/>}/>
+          </Routes>
+        </main>
       </BrowserRouter>
     </div>
   );
