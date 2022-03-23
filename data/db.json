@@ -9,6 +9,16 @@
       "title": "Blog Title 2",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus dignissimos sequi esse ipsa ipsum ut, explicabo error adipisci hic dolor architecto laboriosam aliquid excepturi, a expedita reiciendis consequuntur deleniti.",
       "id": 2
+    },
+    {
+      "title": "Ona",
+      "body": "Jest szalona",
+      "id": 3
+    },
+    {
+      "title": "od",
+      "body": "od dawna",
+      "id": 4
     }
   ]
 }

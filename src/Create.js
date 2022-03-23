@@ -18,7 +18,7 @@ const Create = () => {
             body: JSON.stringify(blog)
         }).then(() => {
             setIsPending(false);
-            history('/');
+            history('/blogs');
         });
     }
 

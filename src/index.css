@@ -6,18 +6,42 @@ body {
   color: #333;
 }
 
-.btn {
-  border: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  background-color: #333;
-  color: #fff;
+.main {
+  margin: 0 1rem;
 }
 
 a {
   text-decoration: none;
   color: #333;
 }
+
+/* Buttons */
+
+.btn {
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease .1s;
+}
+
+.btn:hover {
+  transform: scale(105%);
+}
+
+.btn__add {
+  padding: 0.75rem 2.875rem;
+  font-size: 1.5rem;
+}
+
+.create .btn__add {
+  font-size: 1.125rem;
+  padding: 0.5625rem 2.4375rem;
+}
+
+/* Navbar */
 
 .navbar__list {
   list-style: none;
@@ -33,9 +57,7 @@ a {
   padding: 1.375rem 1rem 0.875rem 1rem;
 }
 
-.main {
-  margin: 0 1rem;
-}
+/* Home Page */
 
 .home-page {
   text-align: center;
@@ -52,16 +74,7 @@ a {
   margin: 0 0 5vh 0;
 }
 
-.btn__add {
-  padding: 0.75rem 2.875rem;
-  font-size: 1.5rem;
-}
-
 /* Blog List */
-
-/* .blog-list {
-  margin: 0 1rem;
-} */
 
 .blog-preview {
   margin-bottom: 1rem;
@@ -127,11 +140,6 @@ a {
   outline: 1px solid #8d8c8c;
 }
 
-.create .btn__add {
-  font-size: 1.125rem;
-  padding: 0.5625rem 2.4375rem;
-}
-
 /* Blog Details */
 
 .blog-details .btn {
@@ -142,4 +150,50 @@ a {
 
 .not-found a {
   color: #655CFF;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+  .navbar__list {
+    font-size: 1.5rem;
+  }
+  .navbar__list li {
+    padding: 2.5rem 3.3125rem 1.6875rem 3.3125rem;
+  }
+  .main {
+    margin: 0 5.875rem;
+  }
+  .home-page {
+    text-align: left;
+  }
+  .image img {
+    float: right;
+  }
+  .home-page h1 {
+    font-size: 3.5rem;
+    padding-top: 9.5625rem;
+    width: 32vw;
+  }
+  .blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.8125rem;
+    margin-top: 4.3125rem;
+  }
+  .blog-details {
+    margin-top: 4.3125rem;
+  }
+  .create {
+    margin-top: 4.3125rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    margin: 0 10.875rem;
+  }
+  .home-page h1 {
+    font-size: 5rem;
+  }
 }
