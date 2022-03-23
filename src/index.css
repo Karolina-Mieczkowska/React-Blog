@@ -169,6 +169,7 @@ a {
   }
   .image img {
     float: right;
+    width: 50%;
   }
   .home-page h1 {
     font-size: 3.5rem;
